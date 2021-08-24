@@ -1,0 +1,133 @@
+body {
+    font-family: "Red Hat Display", sans-serif;
+}
+
+
+
+#container {
+    background-color: white;
+    width: 350px;
+    height: 550px;
+    top: 81px;
+    left: 347px;
+    border: 1px black solid;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 180px;
+    box-shadow: 0px 13px 0px 0px rgba(236, 236, 240, 0.2);
+
+}
+
+#picture {
+    height: 160px;
+    /* border: 1px solid black; */
+}
+
+#hero {
+    height: 160px;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#title {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 40px 0 20px 0;
+    top: 300px;
+}
+
+#info {
+    text-align: center;
+    line-height: 24px;
+    font-size: 15px;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 20px;
+    color: rgb(133, 133, 133);
+    font-weight: lighter;
+}
+
+#plan {
+    display: flex;
+    background-color: hsl(225, 100%, 98%);
+    justify-content: space-between;
+    width: 75%;
+    height: 65px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+#musicNote img{
+    width: 43px;
+    height:43px;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+#middle {
+    margin-top:10px
+}
+
+#annual {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#price {
+    font-size: 14px;
+    color: rgb(133, 133, 133);
+    font-weight: 100;
+}
+
+#change {
+    align-self: center;
+    font-size: 13px;
+    margin-right: 10px;
+    font-weight: 700;
+}
+
+#change a:link {
+    color: blue;
+}
+
+#change a:visited {
+    color: rgb(76, 68, 185);
+}
+
+#proceed {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 25px;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: bold;
+    height: 42px;
+    width: 75%;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border-radius: 8px;
+    border-style: none;
+    box-shadow: 0px 13px 0px 0px rgba(236, 236, 240, 0.2);
+}
+
+#cancel {
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    font-style: bold;
+    margin: auto;
+    margin-top: 15px;
+    height: 35px;
+    width: 75%;
+    background-color: white;
+    border-radius: 8px;
+    border-style: none;
+    color: rgb(133, 133, 133);
+
+}
