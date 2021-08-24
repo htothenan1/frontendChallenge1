@@ -1,12 +1,13 @@
 body {
     font-family: "Red Hat Display", sans-serif;
+    background-color: hsl(225, 100%, 94%)
 }
 
 
 
 #container {
     background-color: white;
-    width: 330px;
+    width: 320px;
     height: 550px;
     top: 81px;
     left: 347px;
@@ -15,7 +16,7 @@ body {
     margin: auto;
     margin-top: 180px;
     box-shadow: 0px 11px 0px 0px rgba(210, 210, 241, 0.2);
-
+    border-style: none;
 }
 
 #picture {
@@ -53,24 +54,25 @@ body {
     display: flex;
     background-color: hsl(225, 100%, 98%);
     justify-content: space-between;
-    width: 75%;
-    height: 65px;
+    width: 80%;
+    height: 70px;
     text-align: center;
     margin: auto;
     margin-bottom: 20px;
     border: 1px solid black;
     border-radius: 7px;
+    border-style: none;
 }
 
 #musicNote img{
     width: 43px;
     height:43px;
-    margin-top: 12px;
+    margin-top: 14px;
     margin-left: 10px;
 }
 
 #middle {
-    margin-top:10px
+    margin-top:13px
 }
 
 #annual {
@@ -87,7 +89,7 @@ body {
 #change {
     align-self: center;
     font-size: 13px;
-    margin-right: 10px;
+    margin-right: 12px;
     font-weight: 700;
 }
 
